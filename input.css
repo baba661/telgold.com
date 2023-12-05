@@ -1,0 +1,76 @@
+body {
+    background-color: #b39573;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(header\ background.jpg);
+    background-blend-mode: multiply;
+
+    
+}
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: rgba(125, 115, 77, 0.7);
+    border-radius: 10px;
+    font-size: 1.1empx;
+
+} 
+#form h1{
+    color: #0f2027;
+    text-align: center;
+
+
+}
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(19, 20, 29);
+    border: none;
+    border-radius: 4px;
+
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+.input-control input {
+background: transparent;
+border-radius: 4px;
+display: block;
+font-size: 15px;
+color: white;
+padding: 10px;
+width: 100%;
+
+}
+ 
+.input-control input:focus {
+    outline: o;
+}
+.input-control.success input {
+    border-color: #09c372;
+
+}
+.input-control.error input {
+border-color: #ff3860;
+}
+ .input-control .error {
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+ }
+ .login {
+    font-size: 1.1em;
+    cursor: pointer;
+ }
+ .button {
+    cursor: pointer;
+    
+ }
+.button2 {
+    cursor: pointer;
+}
+
+
