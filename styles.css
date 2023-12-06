@@ -84,8 +84,8 @@ font-size: 7em;
 .section-header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
-    color: rgb(250, 247, 247);
-    margin-left: -10px;
+    color: rgb(172, 67, 15);
+    margin-left: 50px;
     font-size: 2em;
    
 
@@ -98,12 +98,11 @@ margin: 30px;
 .shop-item-title {
     display: block;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 1.5em;
     color: #333;
     margin-bottom: 15px;
-    margin-left: -240px;
    
 
 }
@@ -122,9 +121,10 @@ padding: 5px;
 .shop-item-price {
     flex-grow: 1;
     color: #221515;
-    margin-left: 90px;
+    margin-left: 30px;
     margin-top: -30px;
     font-size: 1.1em;
+    font-weight: bold;
 }
 .shop-items {
     display: flex;
